@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsalmon;
+
+}
+
+.outermost-cont{
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    height: 50vh;
+    width: 50vh;
+}
+
+h2{
+    text-align: center;
+    /* margin-bottom: 1rem; */
+    height: 10%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1rem;
+    height: 90%;
+    font-size: 1.1rem;
+    font-family: candara light;
+    font-weight: bold;
+}
+
+.amount-sec{
+    display: flex;
+    flex-direction: column;
+}
+
+#num-value{
+    padding: 10px 5px;
+    border: lightgray solid 1px;
+    border-radius: 10px;
+}
+
+.dropdowns{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 100%;
+    align-items: center;
+}
+
+.to-dropdown{
+    padding-left: 1rem;
+}
+
+img{
+    width: 30%;
+}
+
+.from-section,
+.to-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: lightgray solid 1px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+
+.code-from,
+.code-to{
+    border: none;
+    outline: none;
+    /* font-size: 1rem; */
+}
+
+
+button{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(250, 128, 114, 0.8);
+    color: white;
+}
+
+button:hover{
+    background-color: rgba(250, 128, 114);
+}
+
+#equality{
+    font-family: sans-serif;
+}
